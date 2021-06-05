@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qick-Mart|E-commerce WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-ZfKn7az0YmtPUojZnRXO4CUdt3pn+ogBAyGbqGplrCIR5B/tQwPGtF2q29t+zQj6mC/20w4sSl0cF5F3r0HKSQ==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+    <div class="header">
+    <div class="container">
+       <div class="navbar">
+          <div class="logo">
+              <img src="images/logo.png" width="250px" height="50px">
+           </div>
+           <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search for products,Brands and more" name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+           <nav>
+
+                <ul>
+                    <li><a href=#>Home</a></li>
+                    <li><a href=Products.html>Products</a></li>
+                    <li><a href=#>About</a></li>
+                    <li><a href=Contact.html>Contact</a></li>
+                   <li><button type="submit" class="btn1">Login</button></li>
+                
+                    </ul>
+             </nav>
+             <a href="cart.html" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"><span class="cart">0</span></i></a>
+         </div>
+         <div class="row">
+             <div class="col-2">
+                 <h1>Give Your Work Out New Style!<br>New Style</h1>
+                 <p>“A successful website does three things:
+                    It attracts the right kinds of visitors.<br>
+                    Guides them to the main services or product you offer.”</p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+             </div>
+             <div class="col-2">
+                 <img src="images/image1.png">
+             </div>
+             </div>
+  </div>
+  </div>
+  <!-----------------Feature Categories-------------------------------------------------------------------------->
+  <div class="categories">
+       <div class="small-container">
+      <div class="row">
+          <div class="col-3">
+                <img src="images/feature-image1.jpg">
+          </div>
+          <div class="col-3">
+            <img src="images/feature-image2.jpg">
+          </div>
+          <div class="col-3">
+            <img src="images/feature-image3.jpg">
+          </div>
+      </div>
+      </div>
+      </div>
+      <!---------------Feature Product---------------------------------------------------------------------------->
+       <div class="small-container">
+           <h1 class="title">Feature Product</h1>
+           <div class="row">
+               <div class="col-4">
+                   <img src="images/feature-image1.jpg">
+                   <h4>T-shirt</h4>
+                  <input type="submit" value="Add to Card" class="add-carts">
+                   <p>Price ₹300</p>
+               </div>
+               <div class="col-4">
+                <img src="images/feature-image2.jpg">
+                <h4>Shoes</h4>
+                <input type="submit" value="Add to Card" class="add-carts">
+                <p>Price ₹500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/feature-image3.jpg">
+                <h4>Ladies Suit</h4>
+                <input type="submit" value="Add to Card" class="add-carts">
+                <p>Price ₹700</p>
+            </div>
+            
+           </div>
+           
+       </div>
+       <h2 class="title">Latest Products</h2>
+       <div class="row">
+        <div class="col-4">
+            <img src="images/pexels-frans-van-heerden-1566412.jpg">
+            <h4>T-shirt</h4>
+            <div class="rating">
+           <i class="fa fa-star "aria-hidden="true" id="s1"></i>
+             <i class="fa fa-star"aria-hidden="true" id="s2"></i>
+             <i class="fa fa-star" aria-hidden="true" id="s3"></i>
+             <i class="fa fa-star"  aria-hidden="true" id="s4"></i>
+             <i class="fa fa-star"  aria-hidden="true" id="s5"></i>
+             <x-star-rating>
+                 <div class="star-full"  aria-hidden="true" id="s1"></div>
+                 <div class="star-full" aria-hidden="true" id="s2"></div>
+                 <div class="star-full"  aria-hidden="true" id="s3"></div>
+                 <div class="star"  aria-hidden="true" id="s4"></div>
+                 <div class="star"  aria-hidden="true" id="s5"></div>
+             
+                 </x-star-rating>
+            </div>
+            <p>Price ₹300</p>
+        </div>
+        <div class="col-4">
+         <img src="images/pexels-julia-m-cameron-4145040.jpg">
+         <h4>Shoes</h4>
+         <div class="rating">
+         <i class="fa fa-star " aria-hidden="true" id="s1"></i>
+          <i class="fa fa-star" aria-hidden="true" id="s2"></i>
+          <i class="fa fa-star" aria-hidden="true" id="s3"></i>
+          <i class="fa fa-star" aria-hidden="true" id="s4"></i>
+          <i class="fa fa-star" aria-hidden="true" id="s5"></i>
+
+         </div>
+         <p>Price ₹500</p>
+     </div>
+     <div class="col-4">
+         <img src="images/pexels-marlene-leppänen-1183266.jpg">
+         <h4>Ladies Suit</h4>
+         <div class="rating">
+             <div class="rating">
+                 <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star"aria-hidden="true"></i>
+                  <i class="fa fa-star"aria-hidden="true"></i>
+                  <i class="fa fa-star"aria-hidden="true"></i>
+                  <i class="fa fa-star"aria-hidden="true"></i>
+         </div>
+         <p>Price ₹700</p>
+     </div>
+     
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-4">
+        <img src="images/pexels-pixabay-157860.jpg">
+        <h4>T-shirt</h4>
+        <div class="rating">
+       <i class="fa fa-star "aria-hidden="true" id="s1"></i>
+         <i class="fa fa-star"aria-hidden="true" id="s2"></i>
+         <i class="fa fa-star" aria-hidden="true" id="s3"></i>
+         <i class="fa fa-star"  aria-hidden="true" id="s4"></i>
+         <i class="fa fa-star"  aria-hidden="true" id="s5"></i>
+         <x-star-rating>
+             <div class="star-full"  aria-hidden="true" id="s1"></div>
+             <div class="star-full" aria-hidden="true" id="s2"></div>
+             <div class="star-full"  aria-hidden="true" id="s3"></div>
+             <div class="star"  aria-hidden="true" id="s4"></div>
+             <div class="star"  aria-hidden="true" id="s5"></div>
+         
+             </x-star-rating>
+        </div>
+        <p>Price ₹300</p>
+    </div>
+    <div class="col-4">
+     <img src="images/pexels-julia-m-cameron-4145040.jpg">
+     <h4>Shoes</h4>
+     <div class="rating">
+     <i class="fa fa-star " aria-hidden="true" id="s1"></i>
+      <i class="fa fa-star" aria-hidden="true" id="s2"></i>
+      <i class="fa fa-star" aria-hidden="true" id="s3"></i>
+      <i class="fa fa-star" aria-hidden="true" id="s4"></i>
+      <i class="fa fa-star" aria-hidden="true" id="s5"></i>
+
+     </div>
+     <p>Price ₹500</p>
+ </div>
+ <div class="col-4">
+     <img src="images/categorie3.jpg">
+     <h4>Ladies Suit</h4>
+     <div class="rating">
+         <div class="rating">
+             <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star"aria-hidden="true"></i>
+              <i class="fa fa-star"aria-hidden="true"></i>
+              <i class="fa fa-star"aria-hidden="true"></i>
+              <i class="fa fa-star"aria-hidden="true"></i>
+     </div>
+     <p>Price ₹700</p>
+ </div>
+ 
+</div>
+
+</div>
+       </div>
+     
+<!-----------------Offer------------------->
+   <div class="offer">
+       <div class="small-container">
+           <div class="row">
+               <div class="col-2">
+                        <img src="images/pexels-jatin-anand-125779-removebg-preview.png" class="offer-img">
+               </div>
+               <div class="col-2">
+                     <p>Exclusive Available On Quick Mart</p>
+                     <h1>Smart Brand4</h1>
+                     <small>
+                         The Mi smart Brand4 feature a 39.9% larger then AMOLED color full touch display with 
+                         adjustable brightness so every thing is as can be.
+                     </small>
+                     <a href="#" class="btn">Buy Now &#8594</a>
+                    </div>
+           </div>
+       </div>
+   </div>
+<!---------------------Brands--------------------->
+  <div class="Brands">
+      <div class="small-container">
+          <div class="row">
+            <div class="col-5">
+                <img src="images/3-2-paypal-logo-png.png" width="200px" height="100px">
+            </div>
+            <div class="col-5">
+                <img src="images/logo1 (1).png" alt="" width="200px" height="100px">
+            </div>
+            <div class="col-5">
+                <img src="images/logo1 (2).png" alt="" width="200px" height="100px">
+            </div>
+            <div class="col-5">
+                <img src="images/logo1 (3).png" alt="" width="200px" height="100px">
+            </div>
+            <div class="col-5">
+                <img src="images/logo1 (4).png" alt="" width="200px" height="100px">
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-------------Footer---------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Your App</h3>
+                        <p>Download App for Android and ios</p>
+                        <div class="app-logo">
+                            <img src="images/app-store-png-logo-33123.png" alt="">
+                         
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                          <img src="images/logo.png" alt="">
+                        <p>Our Purpose Is Sustainbly Make the Pleasure and 
+                            Benifita of Sports Accessible to the Many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                      <h3>Useful links</h3>
+                      <ul>
+                        <li>Cupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                         </ul>
+                  </div>
+
+                  <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                      <li>Facebook </li>
+                      <li>Twitter</li>
+                      <li>instagram</li>
+                      <li>Youtube</li>
+                       </ul>
+                </div>
+                </div>
+                <hr>
+                      <p class="copyright">Copyrights-2020 Quick-Mart</p>
+            </div>
+        </div>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction();
+            };
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display="block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <script src="main.js"></script>
+</body>
+</html>
